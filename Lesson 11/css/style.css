@@ -1,6 +1,45 @@
-p {
+/* p {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 150px;
     margin-right: 100px;
+} */
+
+/* p {
+    margin: 100px 100px 100px 150px;
+} */
+
+/* p {
+    margin: 150px 100px 80px;
+} */
+
+/* p{
+    margin: 150px 100px;
+} */
+
+/* p{ 
+    margin: 150px;
+} */
+
+/* p{
+    height: 200px;
+     width: 50%; 
+    max-width: 500px;
+    background-color: powderblue;
+}
+
+p{
+    padding: 100px 80px 150px 160px;
+} */
+
+p{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    border: 15px solid green ;
+    margin: 20px;
+    background-color: powderblue;
+    /* color: rgb(142, 99, 163); */
+    color: #eb7734;
+    
 }
