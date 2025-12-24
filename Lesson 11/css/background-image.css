@@ -1,0 +1,13 @@
+body {
+    background: url("../Images/night-sky.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: blueviolet;
+    border-style: dotted;
+}
