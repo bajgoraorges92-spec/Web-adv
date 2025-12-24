@@ -1,0 +1,12 @@
+h2 {
+    text-decoration: overline;
+}
+
+h3 {
+    text-decoration: line-through;
+    text-shadow: 10px 10px 10px black;
+}
+
+h4 {
+    text-decoration: underline;
+}
