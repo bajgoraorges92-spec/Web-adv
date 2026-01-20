@@ -1,7 +1,7 @@
 /* ul{
     list-style-image: url(../image/image.png)
 } */
- ul{
+ /* ul{
     list-style-type: none;
     padding: 0;
     border: 2px solid grey;
@@ -9,4 +9,11 @@
  ul li{
     padding: 8px 16px;
     border-bottom: 1px solid gray;
- }
+ } */
+  ul{
+   border-left: 5px solid green;
+   background-color: blue;
+   list-style-type: none;
+   font-size: 20px;
+   padding: 15px 25px;
+  }

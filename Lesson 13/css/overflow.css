@@ -1,0 +1,25 @@
+/* body{
+    overflow: initial;
+}
+body{
+    overflow: visible;
+}
+body{
+    overflow: scroll;
+}
+body{
+    overflow: hidden;
+}
+body{
+    overflow: inherit;
+} */
+body{
+    overflow: auto;
+}
+.overflow{
+    overflow: scroll;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
