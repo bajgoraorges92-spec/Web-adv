@@ -1,0 +1,16 @@
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+article > p{
+    background-color: red;
+}
+article ~ p{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background-color: orange;
+}

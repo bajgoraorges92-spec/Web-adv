@@ -1,0 +1,18 @@
+/* input:in-range{
+    border: 3px solid green;
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+input:required{
+    background-color: #9ee5f0;
+}
+input:focus{
+    background-color: yellow;
+} */
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}

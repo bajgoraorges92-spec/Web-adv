@@ -1,0 +1,9 @@
+ol{
+    background: #ffeeee;
+    padding: 15px;
+    }
+ol li{
+    background: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
+}

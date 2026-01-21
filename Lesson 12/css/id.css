@@ -1,0 +1,15 @@
+#normaltext{
+    font-style: normal;
+    font-size: 32px;
+    font-weight: lighter;
+}
+#italictext{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}
+#obliquetext{
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: 900;
+}
