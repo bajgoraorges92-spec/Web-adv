@@ -1,0 +1,22 @@
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    font-size: 40px;
+}
+h1::before{
+    content: url(../images/tag.png);
+}
+h3::after{
+    content: url(../images/check.png);
+}
+::selection{
+    color: white;
+    background-color: red;
+}
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
