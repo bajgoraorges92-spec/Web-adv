@@ -44,3 +44,11 @@ h1[class|="heading"]{
     color: white;
     padding: 20px;
 }
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}
+
+input[read-only] {
+    border: 2px solid green;
+}
