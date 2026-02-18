@@ -29,11 +29,11 @@
 }
 
 /*Grey Scale*/
-#engineer img{
+#engineers img{
     filter: grayscale(100%);
     transition: .3s ease-in-out;
 }
 
-#engineer:hover img{
+#engineers:hover img{
     filter: grayscale(0);
 }
