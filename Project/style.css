@@ -59,7 +59,7 @@ body{
 
 .hero{
     color: white;
-    height: 900px;
+    height: 600px;
     background-image: url(../Project/images/bmw4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,20 +76,30 @@ body{
 }
 
 .shopbmw{
-    height: 900px;
-    background-image: url(../Project/images/bmw2.png);
+    height: 600px;
+    background-image: url(../Project/images/bmw7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 20px;
+    display: flex;
 }
 
 table{
     width: 80%;
     border-collapse: collapse;
-    margin-left: 150px;
+    margin-left: 50px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.table h1{
+    color: white;
+}
+
+.table button{
+    background-color: white;
+    color: white;
 }
 
 th, td {
@@ -99,7 +109,7 @@ th, td {
 
 tr{
     color: white;
-    background-color: #093047;
+    background-color: transparent;
     padding: 20px;
 }
 
@@ -108,17 +118,55 @@ td{
     text-align: center;
 }
 
-button{
-    color: white;
-    background-color: #093047;
-    border: none;
-    padding: 8px 14px;
-    cursor: pointer;
+
+
+button a{
+    color: #093047;
+    background-color: white;
     text-decoration: none;
 }
 
-button a{
-    color: white;
+.cars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #093047;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card button{
+    width: 100px;
+    padding-left: 20px;
+    margin-left: 125px;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.image{
+    border-radius: 50px;
+    border: 1px solid transparent;
+}   
+.btn{
     background-color: #093047;
-    text-decoration: none;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.btn a{
+    color: white;
 }
