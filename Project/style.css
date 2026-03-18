@@ -152,9 +152,14 @@ button a{
 }
 
 .card button{
-    width: 100px;
-    padding-left: 20px;
-    margin-left: 125px;
+   
+    padding: 20px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius:10px ;
+    background-color: #093047;
+    color: white;
+    
 }
 
 .offers{
@@ -173,6 +178,7 @@ button a{
     color: white;
     padding:10px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn a{
@@ -203,3 +209,31 @@ button a{
     height: 800px;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #093047;
+    color: white;
+}
+
+.div-footer{
+    width: 300px;
+    font-size: 18px;
+}
+
+.div-footer ul li {
+    background-color: #093047;
+    color: white;
+}
+.div-footer li a{
+    color:#ddd
+}
+
+#about-button a{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius:10px ;
+    background-color: #093047;
+    color: white;
+}

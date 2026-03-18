@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Space Grotesk", serif;
-    background-image: url('../Project/images/bg.jpg');
+    background-image: url('images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -151,4 +151,3 @@ body {
         width: 100%;
     }
 }
-
