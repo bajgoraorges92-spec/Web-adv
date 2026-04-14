@@ -35,7 +35,7 @@ console.log(secondPlace);
 
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-var[fist, second, ...otherNumbers];
+var [fist, second, ...otherNumbers];
 console.log(first);
 console.log(second);
 console.log(otherNumbers);
